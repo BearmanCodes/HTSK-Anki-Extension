@@ -1,0 +1,36 @@
+html{
+    width: 300px;
+    height: 360px;
+}
+
+body {
+    background-image: url('background.jpg');
+}
+
+#GO{
+    background-color: #00c8ff;
+    display: inline-block;
+    padding: 8px 12px;
+    text-wrap: nowrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    border: solid;
+    border-color: #023292;
+    border-width: 4px;
+    font-size: 31px;
+    transition-duration: 0.2s;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button:active{
+    transition-duration: 0.2s;
+    opacity: 65%;
+}
